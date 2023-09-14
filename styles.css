@@ -1,0 +1,123 @@
+body {
+padding:0;
+margin:0;
+box-sizing:border-box;
+cursor: pointer;
+}
+
+.container {
+    background-color:#35424a;
+    border-bottom:2px solid red;
+}
+.header {
+    display:flex;
+    flex-direction:row;
+    gap:15%;
+    border-bottom:2px solid red;
+    position:sticky;
+}
+.right {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    gap:40px;
+    padding:10px 10px;
+    color:white;
+}
+.left {
+    display:flex;
+    flex-direction:row;
+    gap:30px;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap:wrap;
+}
+.home {
+    color:red;
+}
+.html, .css {
+    color:white;
+}
+.webDesign {
+    background-image:url('./pexels-luis-gomes-546819.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    height:300px;
+    text-align:center;
+    align-content:center;
+    justify-content:center;
+    color:rgb(250, 246, 246);
+    flex-direction:column;
+    cursor: pointer;
+    border-bottom:2px solid red;
+}
+.rightText {
+    color:red;
+}
+.subscribe {
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ font-size:20px;
+ font-weight:300px;
+ color:white;
+ padding-bottom:10px;
+ align-items:center;
+}
+.webText {
+ filter:contrast(170%);
+}
+.home:hover {
+    color:white;
+    transition:.5s;
+}
+.css:hover {
+    color:red;
+    transition:.5s;
+}
+.divJourney {
+    padding-top:30px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+.markUp,.styling, .graficDesign {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    border:2px solid rgb(113, 113, 21);
+    padding:10px 10px;
+    text-align:center;
+}
+.footer {
+    background-color:#e8991d;
+    height:50px;
+    margin-top:10px;
+    display:flex;
+    justify-content:center;
+}
+
+@media screen and (max-width: 800px) {
+    .header {
+        display:flex;
+        flex-direction:column;
+    }
+    .divJourney {
+        display:flex;
+        flex-direction:column;
+    }
+    .left {
+        margin-right:0;
+
+    }
+    .right {
+        margin-top:10px;
+        display:flex;
+        gap:10px;
+        justify-content:center;
+    }
+
+  }
