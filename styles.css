@@ -77,6 +77,10 @@ cursor: pointer;
     color:red;
     transition:.5s;
 }
+.html:hover {
+    color:red;
+    transition:.5s;
+}
 .divJourney {
     padding-top:30px;
     display:flex;
@@ -121,3 +125,4 @@ cursor: pointer;
     }
 
   }
+  
